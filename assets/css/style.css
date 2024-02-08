@@ -1,7 +1,33 @@
+/*seletor de tag*/
 h1{
-    background: blueviolet;
-    color: white;
+    background: darkblue;
+    color: lightgreen;
 }
-p{
-    color: yellowgreen;
+/*Seletor por ID*/
+#seletor-por-id{
+    background: red;
+    color: aliceblue;
+}
+/*Seletor por classe*/
+.seletor-por-class{
+    background: purple;
+    color: aliceblue;
+}
+.texto-maiusculo{
+    text-transform: uppercase;
+}
+/*Seletor Universal*/
+* {
+    font-family: sans-serif, Helvetica;
+}
+/*Seletor de Atributos*/
+[title]{
+    color: red;
+}
+[title="att"]{
+    background: burlywood;
+}
+/*Busca palavra isolada*/
+[title~="seletor"]{
+    text-transform: uppercase;
 }
