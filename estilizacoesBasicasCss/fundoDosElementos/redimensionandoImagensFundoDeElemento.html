@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redimensionando as Imagens de Fundo dos Elementos</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        div{
+            width: 300px;
+            height: 300px; 
+            background-image: url(/assets/images/PinkFloydWomans.webp);
+        }
+        #auto{
+            background-size: auto;
+        }
+        #cover{
+            background-size: cover;
+        }
+        #contain{
+            background-size: contain;
+        }
+        #tam{
+            background-size: 70%;
+        }
+        #camadas{
+            background-image: url(/assets/images/pngwing.com.png), url(/assets/images/PinkFloydWomans.webp);
+            background-size: contain, cover;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Redimensionando as Imagens de Fundo dos Elementos</h1>
+
+    <p>Background-size: auto;</p>
+    <div id="auto">
+    </div>
+
+    <p>Background-size: cover;<br>
+        Ocupa todo o espaço do elemento.
+    </p>
+    <div id="cover">
+    </div>
+
+    <p>Background-size: contain;<br>
+        Extende até uma borda da foto.
+    </p>
+    <div id="contain">
+    </div>
+
+    <p>Background-size: definido por mim; <br>
+        posso usar px, %, 1 valor, 2 valores.
+    </p>
+    <div id="tam">
+    </div>
+
+    <p>Background-size: camadas;</p>
+    <div id="camadas">
+    </div>
+
+    <button type="button"><a href="/index.html">Index</a></button>
+</body>
+</html>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seletores CSS</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
     
       * SELETORES: definem em quais elementos nós vamos aplicar o CSS
       * 1. Seletor de Tag/Tipo
@@ -12,7 +11,41 @@
       * 3. Seletor de Classes .
       * 4. Seletor Universal *
       * 5. Seletor de Atributo
-    
+    <style>
+        /*seletor de tag*/
+        h1{
+            background: darkblue;
+            color: lightgreen;
+        }
+        /*Seletor por ID*/
+        #seletor-por-id{
+            background: red;
+            color: aliceblue;
+        }
+        /*Seletor por classe*/
+        .seletor-por-class{
+            background: purple;
+            color: aliceblue;
+        }
+        .texto-maiusculo{
+            text-transform: uppercase;
+        }
+        /*Seletor Universal*/
+        * {
+            font-family: sans-serif, Helvetica;
+        }
+        /*Seletor de Atributos*/
+        [title]{
+            color: red;
+        }
+        [title="att"]{
+            background: burlywood;
+        }
+        /*Busca palavra isolada*/
+        [title~="seletor"]{
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 <body>
     <h1>Seletores CSS</h1>

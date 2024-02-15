@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetição das Imagens de Fundo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+
+        div{
+
+        }
+        #repeat{
+            background-repeat: repeat;
+        }
+        #repeat-x{
+            background-repeat: repeat-x;
+        }
+        #repeat-y{
+            background-repeat: repeat-y;
+        }
+        #space{
+            background-repeat: space;
+        }
+        #round{
+            background-repeat: round;
+        }
+        #no-repeat{
+            background-repeat: no-repeat;
+        }
+        #parametros{
+            background-repeat: repeat space;
+        }
+    </style>
+</head>
+<body>
+    <h1>Repetição das Imagens de Fundo</h1>
+
+    <p>Background-repeat: repeat;(Padrão)</p>
+    <div id="repeat" class="repeticao">
+    </div>
+
+    <p>Background-repeat: repeat-x;<br>
+        deixa uma linha horizontal.
+    </p>
+    <div id="repeat-x" class="repeticao">
+    </div>
+
+    <p>Background-repeat: repeat-y;<br>
+        deixa uma linha vertical.
+    </p>
+    <div id="repeat-y" class="repeticao">
+    </div>
+
+    <p>Background-repeat: space;<br>
+        Deixa as imagens espaçadas no centro.
+    </p>
+    <div id="space" class="repeticao">
+    </div>
+
+    <p>Background-repeat: round;<br>
+        repete a imagem, sem cortar, mas redimensiona como precisar.
+    </p>
+    <div id="round" class="repeticao">
+    </div>
+
+    <p>Background-repeat: no-repeat;<br>
+        Deixa somente uma imagem, no tamanho original.
+    </p>
+    <div id="no-repeat" class="repeticao">
+    </div>
+
+    <p>Background-repeat: parametros;<br>
+        Defini o eixo x repeat e o eixo y space.
+    </p>
+    <div id="parametros" class="repeticao">
+    </div>
+
+    <button type="button"><a href="/index.html">Index</a></button>
+</body>
+</html>

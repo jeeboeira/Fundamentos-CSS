@@ -1,33 +1,20 @@
-/*seletor de tag*/
-h1{
-    background: darkblue;
-    color: lightgreen;
+body{
+    background-color: rgba(8, 5, 27, 0.699);
 }
-/*Seletor por ID*/
-#seletor-por-id{
-    background: red;
-    color: aliceblue;
+div{
+    margin-bottom: 30px;
 }
-/*Seletor por classe*/
-.seletor-por-class{
-    background: purple;
-    color: aliceblue;
+p{
+    margin-bottom: 5px;
 }
-.texto-maiusculo{
-    text-transform: uppercase;
+button{
+    margin: 16px;
 }
-/*Seletor Universal*/
-* {
-    font-family: sans-serif, Helvetica;
-}
-/*Seletor de Atributos*/
-[title]{
-    color: red;
-}
-[title="att"]{
-    background: burlywood;
-}
-/*Busca palavra isolada*/
-[title~="seletor"]{
-    text-transform: uppercase;
+.repeticao{
+    background-color: lightcoral;
+    background-image: -webkit-image-set("https://img.freepik.com/vetores-gratis/scifi-e-papel-de-parede-de-quadro-de-neon-vintage-cibernetico-com-efeito-equalizador_1017-43047.jpg?w=1380&t=st=1707970513~exp=1707971113~hmac=cde62880a415dba99ea094710ce87be2c9462a6feb59167973cd0878e6fa4957");
+    /*Imagem de starline no Freepik*/
+    width: 533px;
+    height: 300px; 
+    background-size: 30%;
 }
