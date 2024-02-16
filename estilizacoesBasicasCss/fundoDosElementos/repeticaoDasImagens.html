@@ -6,10 +6,6 @@
     <title>Repetição das Imagens de Fundo</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <style>
-
-        div{
-
-        }
         #repeat{
             background-repeat: repeat;
         }
@@ -30,6 +26,14 @@
         }
         #parametros{
             background-repeat: repeat space;
+        }
+        #position{
+            background-repeat: no-repeat;
+            background-position: 75% -30px;
+        }
+        #position2{
+            background-repeat: no-repeat;
+            background-position: bottom 15px right 45px;
         }
     </style>
 </head>
@@ -74,6 +78,19 @@
         Defini o eixo x repeat e o eixo y space.
     </p>
     <div id="parametros" class="repeticao">
+    </div>
+
+    <p>Background-position: ;<br>
+        Permite manipular a localização da imagem. <br>
+        aceita qualquer tipo valor.
+    </p>
+    <div id="position" class="repeticao">
+    </div>
+
+    <p>Background-position: ;<br>
+        valores a partir de outra referência.
+    </p>
+    <div id="position2" class="repeticao">
     </div>
 
     <button type="button"><a href="/index.html">Index</a></button>

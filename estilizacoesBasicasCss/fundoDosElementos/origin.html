@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        h1{
+            margin-bottom: 5px;
+        }
+        h3{
+            margin-top: 0px;
+            padding-left: 10px;
+        }
+        .repeticao{
+
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border: 15px dashed palegreen;
+            padding: 30px;
+        }
+        #padding-box{
+            background-origin: padding-box;
+        }
+        #border-box{
+            background-origin: border-box;
+        }
+        #content-box{
+            background-origin: content-box;
+        }
+        .clip-padding{
+            background-clip: padding-box;
+        }
+        .clip-border{
+            background-clip: border-box;
+        }
+        .clip-content{
+            background-clip: content-box;
+        }
+        #text{
+            color: transparent;
+            font-size: 90px;
+            font-weight: 900;
+            text-align: center;
+            background-repeat: initial;
+            padding: auto;
+            border: 15px dashed rgba(116, 84, 24, 0.438);
+            
+            background-color: #95673e;
+            background-image: 
+            linear-gradient(335deg, #fbefc0 23px, transparent 23px),
+            linear-gradient(155deg, #fbefc0f1 23px, transparent 23px),
+            linear-gradient(335deg, #fbefc0f5 23px, transparent 23px),
+            linear-gradient(155deg, #fbefc0f9 23px, transparent 23px);
+            background-size: 54px 54px;
+            background-position: 2.4px 4.6px, 3.5px 32.7px, 31px 31.6px, 32.3px 6px;
+            font-family:Helvetica, sans-serif;
+
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Origin:</h1>
+    <h3>Bordas</h3>
+    
+    <p>background-origin: padding-box;</p>
+    <div id="padding-box" class="repeticao">
+    </div>
+
+    <p>background-origin: border-box;</p>
+    <div id="border-box" class="repeticao">
+    </div>
+
+    <p>background-origin: content-box;</p>
+    <div id="content-box" class="repeticao">
+    </div>
+
+    <h1>Background Clip:</h1>
+
+    <p>background-clip: padding-box;</p>
+    <div id="padding-box" class="repeticao clip-padding">
+    </div>
+
+    <p>background-clip: border-box;</p>
+    <div id="border-box" class="repeticao clip-border">
+    </div>
+
+    <p>background-clip: content-box;</p>
+    <div id="content-box" class="repeticao clip-content">
+    </div>
+
+    <p>Text</p>
+    <div id="text" class="repeticao">
+        <br>
+        The Wall
+    </div>
+
+    <button type="button"><a href="/index.html">Index</a></button>
+</body>
+</html>

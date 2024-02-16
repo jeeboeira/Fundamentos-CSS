@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        .repeticao{
+            background-size: contain;
+            border-color: ivory;
+        }
+        #solid{
+            border: 10px solid ivory;
+        }
+        #dotted{
+            border-width: 10px;
+            border-style: dotted;
+            border-color: yellow fuchsia;
+        }
+        #double{
+            border-width: 10px;
+            border-style: double;
+            border-color: crimson darkkhaki forestgreen hotpink;
+        }
+        #groove{
+            border-width: 10px;
+            border-style: groove;
+            border-radius: 100px 1000px 90% 1px;
+        }
+        #ridge{
+            border-width: 10px;
+            border-style: ridge;
+            border-radius: 50%/100px;
+        }
+        #inset{
+            border-width: 10px;
+            border-style: inset;
+            border-radius: 100px/750%;
+        }
+        #outset{
+            border-width: 10px;
+            border-style: outset;
+        }
+        #dotted-dashed{
+            border-width: 10px;
+            border-style: dotted dashed;
+        }
+        #all{
+            border-width: 10px;
+            border-style: dotted dashed double groove;
+        }
+        #image{
+            border-width: 40px;
+            border-style: solid;
+            border-image-source: url(/assets/images/PinkFloydWomans.webp);
+            border-image-slice: 50;
+            border-image-outset: 30px 0px 0px 0px;
+        }
+        #image2{
+
+            border-style: solid;
+            border-image-source: linear-gradient(red, orange, yellow, green, blue, indigo, violet);;
+            border-image-slice: 50;
+            background-color: red;
+            background-blend-mode: hue;     
+            border-image-width: 10;
+        }
+        #resumido{
+            border-style: solid;
+            border-width: 40px;
+            border-image: url(/assets/images/PinkFloydWomans.webp) 50 round;
+        }
+        #{
+        }
+        #{
+        }
+        #{
+        }
+        #{
+        }
+        #{
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas</h1>
+
+    <p>Posso definir as configurações das bordas através dos seguintes parâmetros</p>
+
+    <ul>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+
+    <p>Original</p>
+    <div id="" class="repeticao">
+    </div>
+    
+    <html>border-style: solid;</html>
+    <div id="solid" class="repeticao">
+    </div>
+    
+    <html>border-style: dotted;</html>
+    <div id="dotted" class="repeticao">
+    </div>
+        
+    <html>border-style: double;</html>
+    <div id="double" class="repeticao">
+    </div>   
+
+    <html>border-style: groove;</html>
+    <div id="groove" class="repeticao">
+    </div>
+
+    <html>border-style: ridge;</html>
+    <div id="ridge" class="repeticao">
+    </div>
+
+    <html>border-style: inset;</html>
+    <div id="inset" class="repeticao">
+    </div>
+
+    <html>border-style: outset;</html>
+    <div id="outset" class="repeticao">
+    </div>
+
+    <html>border-style: dotted dashed;</html>
+    <div id="dotted-dashed" class="repeticao">
+    </div>
+
+    <html>border-style: dotted dashed double groove;</html>
+    <div id="all" class="repeticao">
+    </div>
+
+    <html>border-style: image;</html>
+    <div id="image" class="repeticao">
+    </div>
+
+    <html>border-style: image2;</html>
+    <div id="image2" class="repeticao">
+    </div>
+
+    <html>border-style: resumido;</html>
+    <div id="resumido" class="repeticao">
+    </div>
+
+    <html>border-style: ;</html>
+    <div id="" class="repeticao">
+    </div>
+
+    <html>border-style: ;</html>
+    <div id="" class="repeticao">
+    </div>
+
+    <html>border-style: ;</html>
+    <div id="" class="repeticao">
+    </div>
+
+    <html>border-style: ;</html>
+    <div id="" class="repeticao">
+    </div>
+
+    <button type="button"><a href="/index.html">Index</a></button>
+</body>
+</html>
