@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Sombras</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+
+        .repeticao{
+            width: 300px;
+            background-image: none;
+            border: 10px solid #8f382e;
+            margin: 20px;
+            margin-bottom: 60px;
+        }
+        #ex1{
+            box-shadow: 30px 30px red;
+        }
+        #Desfoque{
+            box-shadow: 30px 30px 20px red;
+        }
+        #Tamanho{
+            box-shadow: 30px 30px 20px -20px red;
+        }
+        #inset{
+            box-shadow: inset 30px 30px 10px red;
+        }
+        #duas{
+            box-shadow: inset 30px 30px 10px red, 20px 20px 5px black;
+        }
+        #png{
+            background-color: transparent;
+            border: transparent;
+            background-image: url(../../assets/images/pngwing.com.png);
+            background-size: contain;
+            height: 247px;
+
+            filter: drop-shadow(15px 15px 0px pink)
+        }
+        #texto{
+            font-size: 80px;
+            font-family: sans-serif;
+            text-align: center;
+            font-weight: 900;
+            text-shadow: 10px 10px 2px red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shadows</h1>
+
+
+    <p>Original</p>
+    <div id="" class="repeticao">
+    </div>
+    
+    <p>ex1</p>
+    <div id="ex1" class="repeticao">
+    </div>
+
+    <p>Desfoque</p>
+    <div id="Desfoque" class="repeticao">
+    </div>
+
+    <p>Tamanho</p>
+    <div id="Tamanho" class="repeticao">
+    </div>
+
+    <p>inset</p>
+    <div id="inset" class="repeticao">
+    </div>
+
+    <p>duas</p>
+    <div id="duas" class="repeticao">
+    </div>
+
+    <p>png</p>
+    <div id="png" class="repeticao">
+    </div>
+
+    <p>texto</p>
+    <div id="texto" class="repeticao">
+        <br>
+        TEXTO
+    </div>
+
+    <button type="button"><a href="/index.html">Index</a></button>
+</body>
+</html>
+
